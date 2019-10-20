@@ -2,6 +2,6 @@ const express = require('express')
 const app = express()
 const port = 4200
 
-app.get('/', (req, res) => res.send('This is Node.js Class'))
+app.get('/', (req, res) => res.send('This is Second statement'))
 
-app.listen(port, () => console.log(`This will be the console message!  ${port}!`))
+app.listen(port, () => console.log(`This is Version 2.0  ${port}!`))
